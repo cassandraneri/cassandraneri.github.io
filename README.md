@@ -1,2 +1,2 @@
-# cassandraneri.github.io
-This is my root Github pages repo.
+# cassandraneri.design
+[View Site](https://cassandraneri.github.io/)

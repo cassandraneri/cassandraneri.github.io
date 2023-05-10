@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2201.3 359.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #95827c;
+        font-family: Abygaer-Abygaer, Abygaer;
+        font-size: 273px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.19em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(0 239.15)"><tspan x="0" y="0">Pro</tspan><tspan class="cls-2" x="440.35" y="0">f</tspan><tspan x="506.69" y="0">essional </tspan><tspan class="cls-3" x="1516.77" y="0">W</tspan><tspan x="1781.85" y="0">ork</tspan></text>
+</svg>

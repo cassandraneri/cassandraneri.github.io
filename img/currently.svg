@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 418.9 123.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8e1d5;
+        font-family: Abygaer-Abygaer, Abygaer;
+        font-size: 98.54px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(0 86.32)"><tspan x="0" y="0">Curre</tspan><tspan class="cls-2" x="255.02" y="0">n</tspan><tspan x="307.65" y="0">tly</tspan></text>
+</svg>
