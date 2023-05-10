@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
      const myobserver = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
                if (entry.isIntersecting) {
-                    entry.target.setAttribute("data-sectionstate", "active");
+                    entry.target.setAttribute("data-scroll-active", "");
                } else {
-                    entry.target.setAttribute("data-sectionstate", "inactive");
+                    entry.target.removeAttribute("data-scroll-active");
                }
           });
      }, options);
 
-     document.querySelectorAll(".scroll-triggered").forEach((el) => {
+     document.querySelectorAll("[data-scroll]").forEach((el) => {
           myobserver.observe(el);
      });
 
