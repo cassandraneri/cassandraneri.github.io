@@ -119,6 +119,12 @@ h3.subheader {
   max-width: 23em;
 }
 
+@media (max-width: 768px) {
+  h3.subheader {
+    font-size: 2em;
+  }
+}
+
 .hover-content h3 {
   font-family: "kepler-std", serif;
   font-weight: 400;
@@ -1444,7 +1450,7 @@ li {
 
 @media (max-width: 768px) {
   :is(h1) {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 }
 
