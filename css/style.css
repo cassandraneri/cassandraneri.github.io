@@ -1066,7 +1066,6 @@ li {
     font-size: 112.5%;
     /* 18px */
   }
-
 }
 
 /* ANIMATED BUTTON */
@@ -1119,6 +1118,12 @@ li {
   width: 500px;
 }
 
+@media (max-width: 768px) {
+  .intro-custom-button {
+    width: 200px;
+  }
+}
+
 .intro-custom-button:hover {
   content: "";
   color: #95827c;
@@ -1149,6 +1154,12 @@ li {
   margin-top: 2em;
   text-decoration: none;
   width: 500px;
+}
+
+@media (max-width: 768px) {
+  .custom-button {
+    width: 200px;
+  }
 }
 
 .custom-button:hover {
@@ -1927,7 +1938,9 @@ h1.proj-title {
 
 @media (max-width: 768px) {
   .peaceemoji img {
-    display: none;
+    /* display: none; */
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -2473,6 +2486,13 @@ video {
 .rc-social-icons .rc-wrapper .icon {
   color: #fff5ee;
   font-size: 1.5em;
+}
+
+
+@media (max-width: 1600px) {
+  .rc-social-icons {
+    font-size: 1.2em;
+  }
 }
 
 .rc-wrapper {
