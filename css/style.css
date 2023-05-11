@@ -887,7 +887,7 @@ img {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    /* gap: 2em; */
+    gap: 2em;
     margin-bottom: 4em;
   }
 }
