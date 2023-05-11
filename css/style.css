@@ -649,7 +649,7 @@ img {
 
 @media (max-width: 768px) {
   #intro {
-    padding: 25em 4em 0 4em;
+    padding: 25em 2em 0 2em;
   }
 }
 
@@ -1979,8 +1979,8 @@ h1.proj-title {
 
 @media (max-width: 768px) {
   .peaceemoji img {
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
   }
 }
 
