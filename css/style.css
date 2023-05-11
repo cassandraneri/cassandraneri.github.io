@@ -1446,6 +1446,7 @@ li {
 :is(h1) {
   color: #95827c;
   font-size: 8rem;
+  padding-top: 1em;
 }
 
 @media (max-width: 768px) {
