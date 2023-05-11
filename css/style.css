@@ -76,7 +76,7 @@ h4 {
 }
 
 h5 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 300;
   /* 16px */
   line-height: 1.5;
@@ -97,7 +97,7 @@ h5 {
 
 p {
   font-family: "filson-pro", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 300;
   max-width: 41em;
 }
@@ -106,7 +106,7 @@ p {
   color: white;
   text-align: center;
   font-family: "filson-pro", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 200;
   margin: 0;
 }
@@ -545,7 +545,7 @@ img {
   text-decoration: none;
   display: inline-block;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .site-nav a:hover {
@@ -591,8 +591,8 @@ img {
 }
 
 .site-hero-inner-text h1 {
-  font-size: 10em;
-  padding-top: 2em;
+  /* font-size: 10em; */
+  padding-top: .5em;
 }
 
 @media (max-width: 768px) {
@@ -643,7 +643,7 @@ img {
 /* INTRO SECTION */
 
 #intro {
-  padding: 25em 0 10em 0;
+  padding: 10em 0 10em 0;
   display: block;
 }
 
@@ -1137,7 +1137,7 @@ li {
   padding: 24px 48px;
   font-family: "filson-pro", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1em;
   font-style: normal;
   letter-spacing: 1px;
   color: #ebd0c3;
@@ -1250,7 +1250,7 @@ li {
   padding-top: 4em;
   display: block;
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .site-footer a:hover {
@@ -1385,13 +1385,13 @@ li {
 
 .currently-table td:first-of-type {
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .currently-table td {
   padding-bottom: .7em;
   font-weight: 200;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .currently-table a {
@@ -1425,7 +1425,7 @@ li {
   padding: 3em 1em 0 0;
   padding-bottom: .7em;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .rc-currently-table a {
@@ -1620,8 +1620,8 @@ h1.proj-title {
 
 .mouse {
   position: absolute;
-  right: 150px;
-  bottom: 430px;
+  right: 250px;
+  bottom: 200px;
   width: 28px;
   height: 200px;
   transform: translateX(-50%);
@@ -1882,12 +1882,12 @@ h1.proj-title {
   color: #95827c;
   font-family: "kepler-std", serif;
   font-weight: 400;
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .texts-container {
   display: inline-block;
-  height: 100px;
+  height: 50px;
   overflow: hidden;
   color: #ebd0c3;
   max-width: 46em;
@@ -2437,7 +2437,7 @@ video {
 
 .content h1 {
   margin-bottom: 1rem;
-  font-size: 5rem;
+  font-size: 4rem;
   width: 10em;
 }
 
@@ -2539,13 +2539,13 @@ video {
 
 .rc-social-icons .rc-wrapper .icon {
   color: #fff5ee;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 
 @media (max-width: 1600px) {
   .rc-social-icons {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
