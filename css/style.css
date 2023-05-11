@@ -843,6 +843,12 @@ img {
     grid-row-end: 5;
   }
 
+  @media (max-width: 768px) {
+    .item2 {
+      margin-bottom: 7em;
+    }
+  }
+
   .item3 {
     grid-column-start: 2;
     grid-column-end: 7;
@@ -907,7 +913,7 @@ img {
 /* ON HOVER BLOCKS */
 .hover-block {
   --hover-block-offset: 50px;
-  --hover-block-shadow-offset: -10px;
+  --hover-block-shadow-offset: -30px;
   position: relative;
   /* overflow: hidden; */
 }
@@ -937,7 +943,13 @@ img {
 }
 
 .hover-block:nth-of-type(even) {
-  top: 50px;
+  top: 100px;
+}
+
+@media (max-width:768px) {
+  .hover-block:nth-of-type(even) {
+    top: 50px;
+  }
 }
 
 .hover-block a:hover .hover-content {
