@@ -1445,7 +1445,7 @@ li {
 
 :is(h1) {
   color: #95827c;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 @media (max-width: 768px) {
