@@ -962,7 +962,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #7b696470;
+  background-color: #7b6964a1;
 }
 
 @media (min-width:768px) {
