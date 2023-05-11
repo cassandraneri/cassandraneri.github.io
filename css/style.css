@@ -649,7 +649,7 @@ img {
 
 @media (max-width: 768px) {
   #intro {
-    padding: 25em 2em 0 2em;
+    padding: 10em 2em 0 2em;
   }
 }
 
@@ -1330,7 +1330,7 @@ li {
 
 @media (max-width: 768px) {
   .site-footer .intro-custom-button {
-    width: 300px;
+    width: 200px;
   }
 }
 
@@ -2365,6 +2365,7 @@ video {
 @media (max-width: 768px) {
   .image-slider-rc {
     display: block;
+    padding: 3em 3.125rem;
   }
 }
 
@@ -2430,7 +2431,7 @@ video {
 
 @media (max-width: 768px) {
   .content h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
