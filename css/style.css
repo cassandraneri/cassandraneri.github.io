@@ -117,7 +117,7 @@ h3.subheader {
   font-weight: 400;
   font-style: italic;
   font-size: 3em;
-  max-width: 23em;
+  max-width: 20em;
 }
 
 @media (max-width: 768px) {
@@ -1567,7 +1567,7 @@ li {
 
 :is(h1) {
   color: #95827c;
-  font-size: 8rem;
+  font-size: 7rem;
   padding-top: 1em;
 }
 
@@ -2185,7 +2185,7 @@ h1.proj-title {
 
 /* PEACE EMOJI */
 
-.peaceemoji {
+/* .peaceemoji {
   display: inline-block;
   animation: wave 2s infinite;
 }
@@ -2202,7 +2202,7 @@ h1.proj-title {
   100% {
     transform: rotate(-15deg);
   }
-}
+} */
 
 @media (max-width: 768px) {
   .peaceemoji {
