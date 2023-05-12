@@ -223,6 +223,36 @@ img {
   }
 }
 
+.creativeprocess h3.bookcoverdesign {
+  writing-mode: vertical-rl;
+  float: right;
+  margin: 16.2rem 0 0 51rem;
+  font-size: 1.8em;
+  background: #F2D2C4;
+  padding: 8px 0;
+  position: absolute;
+}
+
+.creativeprocess h3.logodesign {
+  writing-mode: vertical-rl;
+  float: right;
+  margin: 22rem 0 0 51rem;
+  font-size: 1.8em;
+  background: #F2D2C4;
+  padding: 8px 0;
+  position: absolute;
+}
+
+.creativeprocess h3.branding {
+  writing-mode: vertical-rl;
+  float: right;
+  margin: 12rem 0 0 51rem;
+  font-size: 1.8em;
+  background: #F2D2C4;
+  padding: 8px 0;
+  position: absolute;
+}
+
 /* HELPERS */
 .hide-visually {
   position: absolute;
@@ -1139,6 +1169,12 @@ li {
   #about .still-text {
     font-size: 3em;
   }
+}
+
+#about .rotating-text+p {
+  /* margin-top: 2.5rem; */
+  padding-top: 1.4rem;
+  border-top: 1px solid #95827c;
 }
 
 #about .texts-container {
