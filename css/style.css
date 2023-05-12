@@ -1458,7 +1458,7 @@ li {
   display: flex;
   justify-content: center;
   margin-right: 2em;
-  width: 500px;
+  width: 280px;
 }
 
 @media (max-width: 768px) {
