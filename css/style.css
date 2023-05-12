@@ -187,7 +187,7 @@ img {
 
 #hero {
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 #hero .creativeprocess {
@@ -211,15 +211,15 @@ img {
   cursor: pointer;
   transition: 0.8s ease-out;
   margin: 0 auto;
-  margin: 2em 0 0 15em;
-  width: 300px;
+  margin: 2em 0 0 10em;
+  width: 280px;
   text-decoration: none;
   text-decoration-color: none;
 }
 
 @media (max-width: 768px) {
   #hero .intro-custom-button {
-    margin: 2em 0 0 4em;
+    margin: 2em 0;
   }
 }
 
@@ -836,7 +836,7 @@ img {
 .container {
   max-width: 2200px;
   margin: 0 auto;
-  padding: 2em 5em;
+  padding: 2em 5em 0 5em;
 }
 
 /* @media (max-width:768px) {
@@ -1713,8 +1713,8 @@ h1.proj-title {
 
 .mouse {
   position: absolute;
-  right: 86px;
-  bottom: 160px;
+  right: -180px;
+  bottom: 200px;
   width: 28px;
   height: 200px;
   transform: translateX(-50%);
@@ -2097,7 +2097,7 @@ h1.proj-title {
   }
 
   #intro .row>.column.one-fourth {
-    max-width: 40%;
+    max-width: 35%;
   }
 
   #intro .row>.column.centered {
