@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   line-height: 1.4;
   background-color: #fff2e9;
+  /* background-color: #dedede; */
   position: relative;
   margin: 0;
   padding: 0;
@@ -1349,6 +1350,7 @@ li {
 @media (max-width: 768px) {
   .site-footer .intro-custom-button {
     width: 200px;
+    padding: 1.5em;
   }
 }
 
