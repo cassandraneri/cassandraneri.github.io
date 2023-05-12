@@ -141,7 +141,7 @@ h3.subheader {
 }
 
 .column.two-thirds p {
-  max-width: 55em;
+  max-width: 33em;
 }
 
 #section1 p,
@@ -805,12 +805,6 @@ img {
   padding: 2em 5em;
 }
 
-#about .container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 /* @media (max-width:768px) {
   .container {
     padding: 0 2em;
@@ -1066,11 +1060,13 @@ li {
 @media (min-width: 768px) {
   #about {
     justify-content: center;
-    padding: 0 15em;
+    padding: 2em 15em;
   }
 }
 
 #about .container {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-bottom: 2em;
 }
 
@@ -1085,6 +1081,7 @@ li {
   object-fit: cover;
   margin: 0 auto;
   text-align: center;
+  box-shadow: 15px 15px #f9e1d5;
   /* box-shadow: 15px 10px solid #f9e1d5; */
 }
 
@@ -1093,6 +1090,41 @@ li {
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+}
+
+#about .still-text {
+  color: #95827c;
+  font-family: "kepler-std", serif;
+  font-weight: 400;
+  font-size: 3em;
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  #about .still-text {
+    font-size: 3em;
+  }
+}
+
+#about .texts-container {
+  display: inline-block;
+  height: 48px;
+  overflow: hidden;
+  color: #ebd0c3;
+  max-width: 46em;
+}
+
+@media (max-width: 768px) {
+  #about .texts-container {
+    height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  #about .column.two-thirds {
+    padding-top: 2em;
+    ;
   }
 }
 
@@ -2031,6 +2063,47 @@ h1.proj-title {
   #intro .row>.column.centered {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* ABOUT PAGE GRID SYSTEM */
+
+@media (min-width: 768px) {
+
+  #about .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #about .row>.column {
+    flex-grow: 1;
+  }
+
+  #about .row>.column.one-half {
+    max-width: 46%;
+  }
+
+  #about .row>.column.one-third {
+    max-width: 29.3333%;
+  }
+
+  #about .row>.column.two-thirds {
+    max-width: 62.6666%;
+  }
+
+  #about .row>.column.one-fourth {
+    max-width: 30%;
+  }
+
+  #about .row>.column.centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .row>.column.one-fourth {
+    max-width: 31%;
   }
 }
 
