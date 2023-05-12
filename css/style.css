@@ -569,7 +569,8 @@ img {
   }
 
   .site-nav a:hover {
-    color: #fff5ee;
+    /* color: #fff5ee; */
+    color: #F2D2C4;
   }
 }
 
@@ -1191,8 +1192,8 @@ li {
   font-size: 1em;
   font-style: normal;
   letter-spacing: 1px;
-  color: #ebd0c3;
-  border: 2px solid #ebd0c3;
+  color: #F2D2C4;
+  border: 2px solid #F2D2C4;
   text-transform: lowercase;
   overflow: hidden;
   background: none;
@@ -1201,15 +1202,13 @@ li {
   transition: 0.8s ease-out;
   margin: 0 auto;
   margin: 2em 0 0 22em;
-  text-decoration: none;
   width: 300px;
+  text-decoration: none;
+  text-decoration-color: none;
 }
 
 @media (max-width: 768px) {
   .intro-custom-button {
-    width: 300px;
-    display: flex;
-    justify-content: center;
     margin: 2em 0 0 4em;
   }
 }
@@ -1306,7 +1305,8 @@ li {
 }
 
 .site-footer a:hover {
-  color: #f9e1d5;
+  /* color: #f9e1d5; */
+  color: #F2D2C4;
 }
 
 .site-footer .site-nav ul {
@@ -1950,7 +1950,8 @@ h1.proj-title {
   display: inline-block;
   height: 80px;
   overflow: hidden;
-  color: #ebd0c3;
+  /* color: #ebd0c3; */
+  color: #F2D2C4;
   max-width: 46em;
 }
 
@@ -2751,13 +2752,15 @@ video {
 .rc-wrapper .instagram:hover,
 .rc-wrapper .instagram:hover .tooltip,
 .rc-wrapper .instagram:hover .tooltip::before {
-  color: #f9e1d5;
+  /* color: #f9e1d5; */
+  color: #F2D2C4;
 }
 
 .rc-wrapper .laptop:hover,
 .rc-wrapper .laptop:hover .tooltip,
 .rc-wrapper .laptop:hover .tooltip::before {
-  color: #f9e1d5;
+  /* color: #f9e1d5; */
+  color: #F2D2C4;
 }
 
 .rc-social-icons {
