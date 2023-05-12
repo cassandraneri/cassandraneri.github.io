@@ -6,8 +6,8 @@ body {
   font-family: "filson-pro", sans-serif;
   min-height: 100vh;
   line-height: 1.4;
-  background-color: #fff2e9;
-  /* background-color: #dedede; */
+  /* background-color: #fff2e9; */
+  background-color: #fff5ee;
   position: relative;
   margin: 0;
   padding: 0;
@@ -202,8 +202,6 @@ img {
   font-size: 1em;
   font-style: normal;
   letter-spacing: 1px;
-  color: #F2D2C4;
-  border: 2px solid #F2D2C4;
   text-transform: lowercase;
   overflow: hidden;
   background: none;
@@ -215,12 +213,26 @@ img {
   width: 280px;
   text-decoration: none;
   text-decoration-color: none;
+  color: #95827c;
+  border: 2px solid #95827c;
+  background-color: #f9e1d5;
 }
 
 @media (max-width: 768px) {
   #hero .intro-custom-button {
     margin: 2em 0;
   }
+}
+
+#hero .intro-custom-button:hover {
+  content: "";
+  height: 100%;
+  z-index: -1;
+  transition: top 0.8s ease-out;
+  top: 100%;
+  color: #F2D2C4;
+  border: 2px solid #F2D2C4;
+  background-color: #fff5ee;
 }
 
 .creativeprocess h3.bookcoverdesign {
@@ -727,7 +739,7 @@ img {
 #intro img {
   border-right: none;
   box-shadow: none;
-  padding-top: 2em;
+  padding-top: 4em;
 }
 
 @media (min-width: 768px) {
@@ -1261,8 +1273,6 @@ li {
   font-size: 1em;
   font-style: normal;
   letter-spacing: 1px;
-  color: #F2D2C4;
-  border: 2px solid #F2D2C4;
   text-transform: lowercase;
   overflow: hidden;
   background: none;
@@ -1274,6 +1284,9 @@ li {
   width: 300px;
   text-decoration: none;
   text-decoration-color: none;
+  color: #95827c;
+  border: 2px solid #95827c;
+  background-color: #f9e1d5;
 }
 
 @media (max-width: 768px) {
@@ -1284,14 +1297,14 @@ li {
 
 .intro-custom-button:hover {
   content: "";
-  color: #95827c;
   cursor: pointer;
-  border: 2px solid #95827c;
-  background-color: #f9e1d5;
   height: 100%;
   z-index: -1;
   transition: top 0.8s ease-out;
   top: 100%;
+  color: #F2D2C4;
+  border: 2px solid #F2D2C4;
+  background-color: #fff5ee;
 }
 
 .custom-button {
@@ -1750,8 +1763,8 @@ h1.proj-title {
 
 .mouse {
   position: absolute;
-  right: -245px;
-  bottom: 200px;
+  right: -200px;
+  bottom: 130px;
   width: 28px;
   height: 200px;
   /* transform: translateX(-50%); */
