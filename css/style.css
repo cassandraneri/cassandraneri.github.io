@@ -162,6 +162,7 @@ img {
 
 .site-main .column.one-third img {
   box-shadow: none;
+  visibility: hidden;
 }
 
 /* TOGGLE NAV */
@@ -195,7 +196,7 @@ img {
 }
 
 #hero .creativeprocess {
-  padding: 0;
+  padding-bottom: 2em;
   margin-top: 0;
 }
 
@@ -2513,6 +2514,13 @@ h1.proj-title {
   .site-main .row>.column.centered {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-main .row>.column.one-third {
+    max-width: 50%;
+    height: 0px;
   }
 }
 
