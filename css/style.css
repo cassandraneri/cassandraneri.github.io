@@ -1415,6 +1415,17 @@ a {
   border: 2px solid #fff;
 }
 
+@media (max-width: 768px) {
+
+  #btn-outline1 .text,
+  #btn-outline2 .text,
+  #btn-outline3 .text,
+  #btn-outline4 .text,
+  #btn-outline5 .text {
+    top: -35px;
+  }
+}
+
 /* BUTTON 2 */
 
 a {
@@ -1518,11 +1529,21 @@ a {
   border: 2px solid #fff;
 }
 
+@media (max-width: 768px) {
+  #btn-wrapper3 {
+    position: absolute;
+    transform: translateY(-50%);
+    right: 0em;
+    top: 57em;
+  }
+}
+
 /* BUTTON 4 */
 
 #btn-wrapper4 {
-  position: absolute;
   transform: translateY(-50%);
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 #btn-outline4 {
@@ -1558,6 +1579,66 @@ a {
 }
 
 .no-svg #btn-outline4 {
+  color: #fff;
+  font-size: 1.7em;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-indent: 4px;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+
+  #btn-wrapper1,
+  #btn-wrapper2,
+  #btn-wrapper4 {
+    max-width: 100%;
+    margin: 0 auto;
+    position: unset;
+  }
+}
+
+/* BUTTON 5 */
+
+#btn-wrapper5 {
+  transform: translateY(-50%);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#btn-outline5 {
+  margin: 30px auto 0;
+  width: 210px;
+  height: 40px;
+  display: block;
+}
+
+#btn-outline5 .shape {
+  stroke-dasharray: 100 310;
+  stroke-dashoffset: -304;
+  stroke-width: 5px;
+  fill: transparent;
+  stroke: #515151;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+#btn-outline5 .text {
+  top: -40px;
+  position: relative;
+  color: #515151;
+  font-size: 1em;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-outline5:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 550;
+}
+
+.no-svg #btn-outline5 {
   color: #fff;
   font-size: 1.7em;
   line-height: 40px;
@@ -2765,7 +2846,7 @@ figure:not(:hover)>video {
 /* CREATIVE PROCESS WORK */
 
 .creativeprocesswork {
-  background-color: #32413e;
+  background-color: #E3E3E3;
   padding: 4em;
   display: flex;
   justify-content: center;
@@ -2791,11 +2872,11 @@ figure:not(:hover)>video {
 }
 
 .creativeprocesswork h2 {
-  color: #f9e1d5;
+  color: #515151;
 }
 
 .creativeprocesswork p {
-  color: #f9e1d5;
+  color: #515151;
   padding-bottom: 3em;
   font-weight: 400;
   text-align: center;
