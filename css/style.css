@@ -3,7 +3,7 @@
 body {
   font-size: 87.5%;
   /* 14px */
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   min-height: 100vh;
   line-height: 1.4;
   /* background-color: #fff2e9; */
@@ -97,7 +97,7 @@ h5 {
 }
 
 p {
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-size: 1em;
   font-weight: 300;
   max-width: 41em;
@@ -106,7 +106,7 @@ p {
 .hover-content p {
   color: white;
   text-align: center;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-size: 1em;
   font-weight: 200;
   margin: 0;
@@ -201,7 +201,7 @@ img {
 
 #hero .intro-custom-button {
   padding: 24px 48px;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
   font-size: 1em;
   font-style: normal;
@@ -892,7 +892,7 @@ img {
 } */
 
 body {
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
 }
 
 img {
@@ -1252,7 +1252,7 @@ li {
 
 .screen {
   color: #515151;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   position: absolute;
   top: 12%;
   left: 50%;
@@ -1260,7 +1260,7 @@ li {
 
 .intro-custom-button {
   padding: 24px 48px;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
   font-size: 1em;
   font-style: normal;
@@ -1301,7 +1301,7 @@ li {
 
 .custom-button {
   padding: 24px 48px;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 1px;
@@ -1735,7 +1735,7 @@ a {
 
 .site-footer .intro-custom-button {
   padding: 24px 48px;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 1px;
@@ -1813,7 +1813,7 @@ a {
 }
 
 .currently-table a {
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   text-decoration: underline;
   font-style: italic;
   font-weight: 200;
@@ -2828,7 +2828,7 @@ figure:not(:hover)>video {
   font-size: 1.2em;
   font-style: normal;
   color: #515151;
-  font-family: "filson-pro", sans-serif;
+  font-family: "mr-eaves-xl-modern", sans-serif;
   text-transform: uppercase;
   /* padding-top: 1.5em; */
 }
