@@ -1126,15 +1126,6 @@ li {
   padding: 3em;
 }
 
-/* .aboutme p {
-  max-width: 30em;
-  font-family: "filson-pro", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 1.5;
-} */
-
 @media (min-width: 768px) {
   #about {
     justify-content: center;
@@ -1416,17 +1407,6 @@ a {
   border: 2px solid #fff;
 }
 
-@media (max-width: 768px) {
-
-  #btn-outline1 .text,
-  #btn-outline2 .text,
-  #btn-outline3 .text,
-  #btn-outline4 .text,
-  #btn-outline5 .text {
-    top: -35px;
-  }
-}
-
 /* BUTTON 2 */
 
 a {
@@ -1648,16 +1628,27 @@ a {
   border: 2px solid #fff;
 }
 
+@media (max-width: 768px) {
+
+  #btn-outline1 .text,
+  #btn-outline2 .text,
+  #btn-outline3 .text,
+  #btn-outline4 .text,
+  #btn-outline5 .text {
+    top: -35px;
+  }
+}
+
 /* FOOTER SITE NAV */
 
 .site-footer {
-  padding: 6em 0 2em 0;
+  padding: 2em 0 2em 0;
   background-color: #c1b5a9;
 }
 
 .site-footer img {
   box-shadow: none;
-  width: 30%;
+  width: 80%;
 }
 
 .site-footer a {
@@ -1872,7 +1863,7 @@ a {
 :is(h1) {
   color: #515151;
   font-size: 7rem;
-  padding-top: 1em;
+  /* padding-top: 1em; */
 }
 
 @media (max-width: 768px) {
@@ -2043,6 +2034,8 @@ h1.proj-title {
 
 .site-footer .logomark {
   visibility: visible;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* MOUSE SCROLL ANIMATION*/
@@ -2836,7 +2829,7 @@ figure:not(:hover)>video {
   color: #515151;
   font-family: "filson-pro", sans-serif;
   text-transform: uppercase;
-  padding-top: 1.5em;
+  /* padding-top: 1.5em; */
 }
 
 .project_description {
@@ -2845,10 +2838,18 @@ figure:not(:hover)>video {
   font-size: 1rem;
 }
 
+@media (max-width: 767px) {
+  .project_description {
+    /* font-family: "Suisse Intl regular"; */
+    color: #a6a6a6;
+    font-size: .8rem;
+  }
+}
+
 /* CREATIVE PROCESS WORK */
 
 .creativeprocesswork {
-  background-color: #E3E3E3;
+  background-color: #C1B6A9;
   padding: 4em;
   display: flex;
   justify-content: center;
