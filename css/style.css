@@ -736,7 +736,7 @@ img {
 
 @media (max-width: 768px) {
   #intro {
-    padding: 10em 2em 0 2em;
+    padding: 5em 2em 0 2em;
   }
 }
 
@@ -2366,7 +2366,7 @@ h1.proj-title {
 /* SEMANTIC GRID SYSTEM */
 
 .creativeprocess .row {
-  margin: 6em;
+  margin: 0 2em;
 }
 
 @media (min-width: 768px) {
@@ -2405,10 +2405,6 @@ h1.proj-title {
 }
 
 /* HOMEPAGE GRID SYSTEM */
-
-.creativeprocess .row {
-  margin: 6em;
-}
 
 @media (min-width: 768px) {
 
@@ -2812,9 +2808,9 @@ figure:not(:hover)>video {
   background-color: #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .creativeprocess img {
-    margin-top: 10em;
+    margin: 2em 0;
   }
 }
 
