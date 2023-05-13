@@ -196,7 +196,7 @@ img {
 }
 
 #hero .creativeprocess {
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
   margin-top: 0;
 }
 
@@ -1158,7 +1158,7 @@ li {
   #about img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    visibility: visible;
   }
 }
 
@@ -1384,10 +1384,10 @@ a {
 }
 
 #btn-outline1 .text {
-  top: -40px;
+  top: -35px;
   position: relative;
   color: #515151;
-  font-size: 1em;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
@@ -1437,10 +1437,10 @@ a {
 }
 
 #btn-outline2 .text {
-  top: -40px;
+  top: -35px;
   position: relative;
   color: #515151;
-  font-size: 1em;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
@@ -1487,10 +1487,10 @@ a {
 }
 
 #btn-outline3 .text {
-  top: -40px;
+  top: -35px;
   position: relative;
   color: #515151;
-  font-size: 1em;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
@@ -1545,10 +1545,10 @@ a {
 }
 
 #btn-outline4 .text {
-  top: -40px;
+  top: -35px;
   position: relative;
   color: #515151;
-  font-size: 1em;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
@@ -1606,10 +1606,10 @@ a {
 }
 
 #btn-outline5 .text {
-  top: -40px;
+  top: -35px;
   position: relative;
   color: #515151;
-  font-size: 1em;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
@@ -1730,7 +1730,7 @@ a {
   .site-footer h1 {
     font-size: 3em;
     margin: 0;
-    padding-left: .5em;
+    padding: 0 0 1em .5em;
   }
 }
 
@@ -1792,10 +1792,42 @@ a {
   justify-content: center;
 }
 
+/* CURRENTLY SECTION */
+
+#currently .social-wrapper2 .icon {}
+
+#currently .social-wrapper2 {
+  margin-top: 8em;
+}
+
+@media (max-width: 768px) {
+  #currently .social-wrapper2 {
+    margin-top: 18.5em;
+    padding-left: 1em;
+  }
+}
+
+#currently .footer-socials {
+  display: flex;
+  width: 0em;
+}
+
+/* @media (min-width: 768px) */
+#currently .row {
+  display: flex;
+  justify-content: space-around;
+}
+
 .currently-table {
   color: #515151;
   margin: 0;
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .currently-table {
+    padding-top: 5em;
+  }
 }
 
 .currently-table th:first-of-type {
@@ -2829,11 +2861,11 @@ figure:not(:hover)>video {
 .project_title {
   margin-bottom: .2rem;
   /* font-family: "Suisse Intl"; */
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-style: normal;
   color: #515151;
   font-family: "mr-eaves-xl-modern", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* padding-top: 1.5em; */
 }
 
@@ -2846,6 +2878,20 @@ figure:not(:hover)>video {
 @media (max-width: 767px) {
   .project_description {
     /* font-family: "Suisse Intl regular"; */
+    color: #a6a6a6;
+    font-size: .8rem;
+  }
+}
+
+.project_detail {
+  letter-spacing: 1.5px;
+  color: #a6a6a6;
+  font-size: .8rem;
+}
+
+@media (max-width: 767px) {
+  .project_detail {
+    letter-spacing: 1.5px;
     color: #a6a6a6;
     font-size: .8rem;
   }
