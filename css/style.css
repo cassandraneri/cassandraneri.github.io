@@ -1184,14 +1184,6 @@ li {
   box-shadow: 15px 15px #C1B6A9;
 }
 
-/* @media (min-width: 768px) {
-  #about img {
-    width: 100%;
-    height: auto;
-    visibility: visible;
-  }
-} */
-
 #about .still-text {
   color: #515151;
   font-family: "kepler-std", serif;
@@ -1958,11 +1950,35 @@ a {
   cursor: pointer;
   border: 2px solid #515151;
   background-color: #c1b5a9;
-  ;
   height: 100%;
   z-index: -1;
   transition: top 0.8s ease-out;
   top: 100%;
+}
+
+.site-footer .social-wrapper2 {
+  color: #515151;
+  position: absolute;
+  font-size: .8em;
+  padding-left: 0;
+  display: flex;
+  margin-top: 3em;
+}
+
+@media (max-width: 576px) {
+  .site-footer .social-wrapper2 {
+    color: #515151;
+    position: absolute;
+    left: 40px;
+    padding-top: 3em;
+    margin-top: 0;
+  }
+
+  .site-footer .social-wrapper2 .icon {
+    padding: 10px;
+    padding-top: 0;
+    margin-left: 0.3em;
+  }
 }
 
 .text-muted {
@@ -1975,7 +1991,6 @@ a {
 
 .text-muted-sub {
   color: #5151514f;
-  ;
   font-size: .8em;
   display: flex;
   justify-content: center;
@@ -2276,10 +2291,6 @@ h1.proj-title {
   visibility: visible;
   display: flex;
   justify-content: flex-end;
-}
-
-.site-footer .social-wrapper2 {
-  padding-top: 5em;
 }
 
 /* MOUSE SCROLL ANIMATION*/
