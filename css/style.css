@@ -81,7 +81,7 @@ h5 {
   /* 16px */
   line-height: 1.5;
   max-width: 30em;
-  color: #515151;
+  color: #353535;
 }
 
 /* PARAGRAPHS */
@@ -92,7 +92,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: #515151;
+  color: #353535;
 }
 
 p {
@@ -128,7 +128,7 @@ h3.subheader {
 .hover-content h3 {
   font-family: "kepler-std", serif;
   font-weight: 400;
-  color: #515151;
+  color: #353535;
 }
 
 .hover-content h2 {
@@ -176,21 +176,21 @@ img {
 @media (min-width: 768px) {
   .toggle-nav .site-id {
     position: absolute;
-    color: #515151;
+    color: #353535;
   }
 }
 
 @media (min-width: 1050px) {
   .toggle-nav .site-id {
     position: absolute;
-    color: #515151;
+    color: #353535;
   }
 }
 
 @media (min-width: 1250px) {
   .toggle-nav .site-id {
     position: absolute;
-    color: #515151;
+    color: #353535;
   }
 }
 
@@ -241,7 +241,7 @@ img {
   z-index: -1;
   transition: top 0.8s ease-out;
   top: 100%;
-  color: #515151;
+  color: #353535;
   border: 2px solid #515151;
   background-color: #F2D2C4;
 }
@@ -315,7 +315,7 @@ img {
 }
 
 .site-id a {
-  color: #515151;
+  color: #353535;
   font-family: "kepler-std", serif;
   font-weight: 200;
   font-size: 1.5em;
@@ -327,7 +327,7 @@ img {
 
 @media (max-width: 768px) {
   .site-id a {
-    color: #515151;
+    color: #353535;
     font-family: "kepler-std", serif;
     font-weight: 200;
     font-size: 1.5em;
@@ -404,7 +404,7 @@ img {
 .site-header .site-nav .menu-button {
   background-color: transparent;
   border: none;
-  color: #515151;
+  color: #353535;
   padding: 0.7em;
   position: relative;
   z-index: 200;
@@ -633,7 +633,7 @@ img {
 }
 
 .site-nav a {
-  color: #515151;
+  color: #353535;
   font-weight: 200;
   text-decoration: none;
   display: inline-block;
@@ -647,7 +647,7 @@ img {
 
 @media (max-width: 768px) {
   .site-nav a {
-    color: #515151;
+    color: #353535;
     font-weight: 200;
     text-decoration: none;
     display: inline-block;
@@ -852,7 +852,7 @@ img {
 
 .projects__wrapper:hover {
   background: rgba(0, 0, 0, 1);
-  color: #515151;
+  color: #353535;
 }
 
 .image-slider-rc img,
@@ -1234,7 +1234,7 @@ li {
 }
 
 #about .still-text {
-  color: #515151;
+  color: #353535;
   font-family: "kepler-std", serif;
   font-weight: 400;
   font-size: 3em;
@@ -1287,7 +1287,7 @@ li {
 }
 
 .about-site-footer a {
-  color: #515151;
+  color: #353535;
   text-align: center;
   font-weight: 200;
   text-decoration: none;
@@ -1353,7 +1353,7 @@ li {
 }
 
 .about-site-footer h1 {
-  color: #515151;
+  color: #353535;
   margin: 0;
   padding-bottom: .2em;
 }
@@ -1397,7 +1397,7 @@ li {
 
 .about-site-footer .intro-custom-button:hover {
   content: "";
-  color: #515151;
+  color: #353535;
   cursor: pointer;
   border: 2px solid #515151;
   background-color: #c1b5a9;
@@ -1408,7 +1408,7 @@ li {
 }
 
 .about-site-footer .social-wrapper2 {
-  color: #515151;
+  color: #353535;
   position: absolute;
   font-size: .8em;
   padding-left: 0;
@@ -1418,7 +1418,7 @@ li {
 
 @media (max-width: 576px) {
   .about-site-footer .social-wrapper2 {
-    color: #515151;
+    color: #353535;
     position: absolute;
     left: 40px;
     padding-top: 3em;
@@ -1481,7 +1481,7 @@ li {
 }
 
 .screen {
-  color: #515151;
+  color: #353535;
   font-family: "mr-eaves-xl-modern", sans-serif;
   position: absolute;
   top: 12%;
@@ -1524,7 +1524,7 @@ li {
   z-index: -1;
   transition: top 0.8s ease-out;
   top: 100%;
-  color: #515151;
+  color: #353535;
   border: 2px solid #515151;
   background-color: #F2D2C4;
 }
@@ -1616,7 +1616,7 @@ a {
 #btn-outline1 .text {
   top: -35px;
   position: relative;
-  color: #515151;
+  color: #353535;
   font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
@@ -1670,7 +1670,7 @@ a {
 #btn-outline2 .text {
   top: -35px;
   position: relative;
-  color: #515151;
+  color: #353535;
   font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
@@ -1720,7 +1720,7 @@ a {
 #btn-outline3 .text {
   top: -35px;
   position: relative;
-  color: #515151;
+  color: #353535;
   font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
@@ -1778,7 +1778,7 @@ a {
 #btn-outline4 .text {
   top: -35px;
   position: relative;
-  color: #515151;
+  color: #353535;
   font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
@@ -1839,7 +1839,7 @@ a {
 #btn-outline5 .text {
   top: -35px;
   position: relative;
-  color: #515151;
+  color: #353535;
   font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
@@ -1885,7 +1885,7 @@ a {
 }
 
 .site-footer a {
-  color: #515151;
+  color: #353535;
   text-align: center;
   font-weight: 200;
   text-decoration: none;
@@ -1951,7 +1951,7 @@ a {
 }
 
 .site-footer h1 {
-  color: #515151;
+  color: #353535;
   margin: 0;
   padding-bottom: .2em;
 }
@@ -1995,7 +1995,7 @@ a {
 
 .site-footer .intro-custom-button:hover {
   content: "";
-  color: #515151;
+  color: #353535;
   cursor: pointer;
   border: 2px solid #515151;
   background-color: #c1b5a9;
@@ -2006,7 +2006,7 @@ a {
 }
 
 .site-footer .social-wrapper2 {
-  color: #515151;
+  color: #353535;
   position: absolute;
   font-size: .8em;
   padding-left: 0;
@@ -2016,7 +2016,7 @@ a {
 
 @media (max-width: 576px) {
   .site-footer .social-wrapper2 {
-    color: #515151;
+    color: #353535;
     position: absolute;
     left: 40px;
     padding-top: 3em;
@@ -2031,7 +2031,7 @@ a {
 }
 
 .text-muted {
-  color: #5151514f;
+  color: #3535354f;
   font-size: .8em;
   display: flex;
   justify-content: flex-end;
@@ -2039,7 +2039,7 @@ a {
 }
 
 .text-muted-sub {
-  color: #5151514f;
+  color: #3535354f;
   font-size: .8em;
   display: flex;
   justify-content: center;
@@ -2075,7 +2075,7 @@ a {
 }
 
 .currently-table {
-  color: #515151;
+  color: #353535;
   margin: 0;
   text-align: left;
 }
@@ -2121,7 +2121,7 @@ a {
 /* RC CURRENTLY TABLE */
 
 .rc-currently-table {
-  color: #515151;
+  color: #353535;
   margin: 0;
   text-align: left;
 }
@@ -2151,7 +2151,7 @@ a {
 }
 
 :is(h1) {
-  color: #515151;
+  color: #353535;
   font-size: 7rem;
   /* padding-top: 1em; */
 }
@@ -2186,7 +2186,7 @@ h1.proj-title {
 }
 
 .social-wrapper2 {
-  color: #515151;
+  color: #353535;
   position: absolute;
   font-size: .8em;
   padding-left: 0;
@@ -2197,7 +2197,7 @@ h1.proj-title {
 
 @media (max-width: 768px) {
   .social-wrapper2 {
-    color: #515151;
+    color: #353535;
     position: absolute;
     left: 40px;
     padding-top: 10em;
@@ -2214,7 +2214,7 @@ h1.proj-title {
 
 .social-wrapper1 .icon {
   position: relative;
-  color: #515151;
+  color: #353535;
   padding: 15px;
   margin: 10px;
   width: 50px;
@@ -2321,6 +2321,8 @@ h1.proj-title {
 
 .footer-socials p {
   max-width: 7em;
+  font-family: "kepler-std", serif;
+  font-weight: 500;
 }
 
 .footer-socials .social-wrapper1 {
@@ -2610,8 +2612,9 @@ h1.proj-title {
 /* LOGO */
 
 .still-text {
-  color: #515151;
+  color: #353535;
   font-family: "kepler-std", serif;
+  letter-spacing: .04em;
   font-weight: 400;
   font-size: 5.5em;
   padding-top: .5em;
@@ -3140,7 +3143,7 @@ figure:not(:hover)>video {
   /* font-family: "Suisse Intl"; */
   font-size: 1.4em;
   font-style: normal;
-  color: #515151;
+  color: #353535;
   font-family: "mr-eaves-xl-modern", sans-serif;
   /* text-transform: uppercase; */
   /* padding-top: 1.5em; */
@@ -3203,11 +3206,11 @@ figure:not(:hover)>video {
 }
 
 .creativeprocesswork h2 {
-  color: #515151;
+  color: #353535;
 }
 
 .creativeprocesswork p {
-  color: #515151;
+  color: #353535;
   padding-bottom: 3em;
   font-weight: 400;
   text-align: center;
@@ -3453,7 +3456,7 @@ video {
 /* RC SOCIALS */
 
 .rc-social-icons .rc-wrapper .icon {
-  color: #515151;
+  color: #353535;
   font-size: 1.15em;
 }
 
@@ -3471,7 +3474,7 @@ video {
 
 .rc-wrapper .icon {
   position: relative;
-  color: #515151;
+  color: #353535;
   margin-top: 1em;
   width: 50px;
   height: 50px;
