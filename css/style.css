@@ -671,7 +671,7 @@ img {
   /* padding: 0 0 10em 0; */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .site-hero-text {
     padding: 5em 0;
     grid-column: 1 / -1;
@@ -679,7 +679,7 @@ img {
     width: 100%;
     z-index: 2;
   }
-}
+} */
 
 .site-hero-inner-text {
   display: inline-block;
@@ -795,6 +795,10 @@ img {
   display: flex;
   justify-content: center;
   padding: 2em;
+}
+
+.projects img {
+  box-shadow: none;
 }
 
 .projects .container {
@@ -3027,7 +3031,7 @@ figure:not(:hover)>video {
 
 .creativeprocess {
   padding: 6em 0;
-  margin-top: 5em;
+  /* margin-top: 5em; */
 }
 
 .final-1,
