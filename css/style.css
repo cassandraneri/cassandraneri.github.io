@@ -3629,6 +3629,18 @@ video {
   transition: all .2s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  .music.cass-2023 {
+    height: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .music.cass-2023 {
+    height: 60px;
+  }
+}
+
 svg.cass-2023 {
   fill: #FFFCF5;
 }
