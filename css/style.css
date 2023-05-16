@@ -2158,7 +2158,6 @@ a {
 :is(h1) {
   color: #353535;
   font-size: 5rem;
-  padding: 0 0.2em;
 }
 
 @media (max-width: 768px) {
@@ -2633,7 +2632,7 @@ h1.proj-title {
 
 @media (max-width: 576px) {
   .still-text {
-    font-size: 2.8em;
+    font-size: 2.6em;
   }
 }
 
@@ -2755,7 +2754,7 @@ h1.proj-title {
 
   .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .row>.column {
@@ -3181,6 +3180,10 @@ figure:not(:hover)>video {
 
 .project_texts {
   margin-top: .2rem;
+}
+
+.project_title h1 {
+  margin-left: 0;
 }
 
 .project_title {
