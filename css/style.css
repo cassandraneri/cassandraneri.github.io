@@ -2115,6 +2115,7 @@ a {
   margin: 0;
   padding: 0;
   text-align: left;
+  max-width: 22em;
 }
 
 #currently .container {
@@ -3626,7 +3627,7 @@ video {
   padding: 16px, 42px, 16px, 20px;
   overflow: hidden;
   height: 80px;
-  max-width: 23em;
+  max-width: 22em;
   transition: all .2s ease-in-out;
 }
 
